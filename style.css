@@ -133,6 +133,31 @@ h1 {
   display: inline-block;
 }
 
+#toggle {
+  display: block;
+  margin: 1.5rem auto 0 auto;
+  background: linear-gradient(135deg, #f472b6 0%, #c084fc 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(244, 114, 182, 0.2);
+  min-width: 100px;
+}
+
+#toggle:hover {
+  box-shadow: 0 8px 20px rgba(192, 132, 252, 0.3);
+  transform: translateY(-2px);
+}
+
+#toggle:active {
+  transform: translateY(0);
+}
+
 .start-mode {
   background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
   box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3) !important;
